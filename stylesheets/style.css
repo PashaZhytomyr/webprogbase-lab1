@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style:none;
+}
+body{
+    position: relative;
+    background-image: url('/images/firstanimatedpage.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    width:99.3%;
+    display: flex;
+    justify-content: center;
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #0065ca; /* Рамка вокруг текста */
+    border-radius: 50%;
+    padding: 3px; /* Поля вокруг текста */
+    
+   }
+.topNav{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.bodyText{
+    min-width:10cm;
+    margin-top: 5cm;
+    padding-bottom: 4cm;
+    margin-left: 2cm;
+    margin-right: 15cm;
+}
+.usersCombo{
+    margin-top: 1cm;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.prof{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.biography{
+    min-width:10cm;
+    margin-top: 1cm;
+    padding-bottom: 4cm;
+    margin-left: 2cm;
+    margin-right: 7cm;
+}
+.table{
+    margin-top: 1cm;
+    padding-bottom: 4cm;
+    margin-left: 18cm;
+    margin-right: 12cm;
+}
+.spaceB{
+    margin-top: 1cm;
+    border-radius: 15%;
+    
+}
+.bodyTextTask{
+    min-width:10cm;
+    margin-top: 3cm;
+    padding-bottom: 4cm;
+    margin-left: 9cm;
+    margin-right: 7cm;
+}
+.forWhat{
+    min-width:10cm;
+    margin-top: 1cm;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.spaceCr{
+    margin-left: 1cm;
+}
